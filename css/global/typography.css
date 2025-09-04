@@ -20,6 +20,7 @@
 }
 .font-1-m-b {
   font: 600 1.125rem/1.33 "Poppins", sans-serif;
+  text-transform: uppercase;
 }
 .font-2-m {
   font: 500 1.125rem/1.33 "Roboto", sans-serif;
