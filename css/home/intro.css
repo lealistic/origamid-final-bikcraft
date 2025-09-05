@@ -6,7 +6,8 @@
 .intro-bg::after {
   content: "";
   display: block;
-  background: url("/assets/svg/dec/bottom-left.svg") no-repeat center / contain;
+  background: url("../../assets/svg/dec/bottom-left.svg") no-repeat center /
+    contain;
   width: 52px;
   height: 52px;
   position: absolute;

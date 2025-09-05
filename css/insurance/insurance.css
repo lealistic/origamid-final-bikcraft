@@ -1,7 +1,66 @@
 .insurance-bg {
   background-color: var(--c11);
-  padding-top: 60px;
+  padding: 60px 0px;
+}
+.insurance {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
 }
 .insurance h2 {
-  margin-bottom: 100px;
+  grid-column: 1/-1;
+  margin-bottom: 60px;
+}
+.insurance-item {
+  background-color: var(--c12);
+  border-radius: 6px;
+  padding: 32px 32px 32px 60px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.insurance-item h3 {
+  margin-bottom: 40px;
+}
+.insurance-item span {
+  grid-column: 2;
+  display: block;
+  text-align: right;
+}
+.insurance-item ul {
+  grid-column: 1/ -1;
+  margin-bottom: 32px;
+}
+.insurance-item li + li {
+  margin-top: 20px;
+}
+.insurance-item li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.insurance-item li::before {
+  content: "";
+  display: block;
+  height: 9px;
+  width: 13px;
+  background: url(../../assets/svg/icons/list.svg) no-repeat;
+  position: absolute;
+  left: -21px;
+}
+.insurance-item a {
+  grid-column: 1/-1;
+}
+@media (max-width: 1000px) {
+  .insurance-item h3 {
+    margin-bottom: 20px;
+  }
+  .insurance-item ul {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 800px) {
+  .insurance {
+    grid-template-columns: 1fr;
+  }
 }

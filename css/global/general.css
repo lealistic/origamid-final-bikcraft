@@ -31,9 +31,17 @@ img {
   padding: 16px 32px;
   background: linear-gradient(#ffbf00, #f2a60c);
   border-radius: 6px;
+  max-width: max-content;
 }
 .btn:hover {
   background: linear-gradient(#f0b400, #c4860a);
+}
+.btn.secondary {
+  background: var(--c10);
+  color: var(--c4);
+}
+.btn.secondary:hover {
+  background: var(--c9);
 }
 .link {
   font: 600 1.125rem/1.33 "Poppins", sans-serif;
