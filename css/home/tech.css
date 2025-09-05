@@ -2,6 +2,7 @@
   background-color: var(--c11);
   box-shadow: inset 0 80px var(--c0), inset 0 -80px var(--c0);
   position: relative;
+  margin-top: 120px;
 }
 .tech-bg::after {
   content: "";
@@ -53,6 +54,9 @@
   object-position: left;
 }
 @media (max-width: 1200px) {
+  .tech-bg {
+    margin-top: 80px;
+  }
   .tech-bg::after {
     left: 20px;
   }
@@ -60,6 +64,7 @@
 @media (max-width: 1000px) {
   .tech-bg {
     box-shadow: none;
+    margin-top: 60px;
   }
   .tech-bg::after {
     display: none;
@@ -81,6 +86,11 @@
   }
   .tech-img {
     display: none;
+  }
+}
+@media (max-width: 800px) {
+  .tech-bg {
+    margin-top: 40px;
   }
 }
 @media (max-width: 600px) {

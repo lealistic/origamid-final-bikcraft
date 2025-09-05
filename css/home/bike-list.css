@@ -1,3 +1,6 @@
+.bikes {
+  padding-top: 120px;
+}
 .bikes h2 {
   margin-bottom: 40px;
 }
@@ -7,7 +10,6 @@
   padding: 0px 20px;
   display: flex;
   gap: 40px;
-  margin-bottom: 120px;
 }
 .bike-item img {
   border-radius: 6px;
@@ -32,6 +34,9 @@
   width: 24px;
 }
 @media (max-width: 1200px) {
+  .bikes {
+    padding-top: 80px;
+  }
   .bikes h2 {
     margin-bottom: 32px;
   }
@@ -47,6 +52,9 @@
   }
 }
 @media (max-width: 1000px) {
+  .bikes {
+    padding-top: 60px;
+  }
   .bike-list {
     margin-bottom: 40px;
   }
@@ -61,6 +69,9 @@
   }
 }
 @media (max-width: 800px) {
+  .bikes {
+    padding-top: 40px;
+  }
   .bikes h2 {
     margin-bottom: 20px;
   }
