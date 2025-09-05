@@ -24,15 +24,12 @@
   border-top: 2px solid var(--c2);
 }
 .partners li img {
-  width: initial;
+  max-width: 120px;
   margin: auto;
 }
 @media (max-width: 1200px) {
   .partners {
     padding-top: 80px;
-  }
-  .partners li img {
-    width: 100%;
   }
 }
 @media (max-width: 1000px) {

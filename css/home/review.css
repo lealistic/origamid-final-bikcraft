@@ -1,0 +1,77 @@
+.review {
+  margin-top: 120px;
+  background-color: var(--p1);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.review-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.review-content {
+  padding: 40px 40px 80px 80px;
+  align-self: end;
+}
+.review-content p {
+  max-width: 24ch;
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 20px;
+  position: relative;
+}
+.review-content p::before,
+.review-content p::after {
+  content: "“";
+  color: var(--p2);
+  font-size: 5rem;
+  position: absolute;
+}
+.review-content p::before {
+  content: "“";
+  left: -50px;
+  top: -20px;
+}
+.review-content p::after {
+  content: "”";
+}
+.review-content span {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-weight: 900;
+  position: absolute;
+}
+@media (max-width: 1200px) {
+  .review {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 1000px) {
+  .review {
+    margin-top: 60px;
+  }
+  .review-content p::before,
+  .review-content p::after {
+    font-size: 4.2rem;
+  }
+  .review-content p::before {
+    left: -40px;
+  }
+}
+@media (max-width: 800px) {
+  .review {
+    margin-top: 40px;
+    grid-template-columns: 1fr;
+  }
+  .review-content {
+    padding: 60px;
+    align-self: initial;
+  }
+  .review-content p {
+    max-width: 40ch;
+  }
+  .review-img img {
+    max-height: 200px;
+  }
+}
