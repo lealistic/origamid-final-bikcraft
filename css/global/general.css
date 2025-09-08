@@ -59,6 +59,14 @@ li a {
 .link:hover {
   color: var(--c0);
 }
+/* Intern pages titles */
+.title-bg {
+  background-color: var(--c11);
+  padding: 60px 0px;
+}
+.title p {
+  margin-bottom: 4px;
+}
 @media (max-width: 800px) {
   .btn {
     font-size: 1rem;
@@ -66,5 +74,12 @@ li a {
   }
   .link {
     font-size: 1rem;
+  }
+  .title-bg {
+    padding: 40px 0px;
+  }
+  .title p {
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }
