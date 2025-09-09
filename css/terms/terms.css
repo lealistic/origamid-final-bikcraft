@@ -9,7 +9,12 @@
   max-width: 75ch;
   margin-bottom: 24px;
 }
-
 .terms p + h2 {
   margin-top: 40px;
+}
+@media (max-width: 800px) {
+  .terms {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
