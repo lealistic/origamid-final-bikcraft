@@ -1,7 +1,7 @@
-.bikes {
+.bikes-home {
   padding-top: 120px;
 }
-.bikes h2 {
+.bikes-home h2 {
   margin-bottom: 40px;
 }
 .bike-list {
@@ -34,10 +34,10 @@
   width: 24px;
 }
 @media (max-width: 1200px) {
-  .bikes {
+  .bikes-home {
     padding-top: 80px;
   }
-  .bikes h2 {
+  .bikes-home h2 {
     margin-bottom: 32px;
   }
   .bike-list {
@@ -52,13 +52,13 @@
   }
 }
 @media (max-width: 1000px) {
-  .bikes {
+  .bikes-home {
     padding-top: 60px;
   }
   .bike-list {
     margin-bottom: 40px;
   }
-  .bikes h2 {
+  .bikes-home h2 {
     margin-bottom: 24px;
   }
   .bike-list {
@@ -69,10 +69,10 @@
   }
 }
 @media (max-width: 800px) {
-  .bikes {
+  .bikes-home {
     padding-top: 40px;
   }
-  .bikes h2 {
+  .bikes-home h2 {
     margin-bottom: 20px;
   }
   .bike-list {

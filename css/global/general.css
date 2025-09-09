@@ -43,6 +43,22 @@ li a {
 .btn.secondary:hover {
   background: var(--c9);
 }
+.btn.arrow {
+  display: flex;
+  align-items: center;
+}
+.btn.arrow::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../assets/svg/icons/arrow.svg");
+  transition: transform 0.2s;
+}
+.btn.arrow:hover::after {
+  transform: translateX(4px);
+}
 .link {
   font: 600 1.125rem/1.33 "Poppins", sans-serif;
   text-transform: uppercase;
