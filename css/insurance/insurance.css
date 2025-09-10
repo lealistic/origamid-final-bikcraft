@@ -2,6 +2,9 @@
   background-color: var(--c11);
   padding: 60px 0px;
 }
+#insurance .insurance-bg {
+  padding-top: 0px;
+}
 .insurance {
   display: grid;
   grid-template-columns: 1fr 1fr;
